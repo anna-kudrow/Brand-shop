@@ -12,16 +12,16 @@
 
 body {
   max-width: 1600px;
+  background-color: $bg-color;
+}
+
+.center {
+  padding-left: calc(50% - 572px);
+  padding-right: calc(50% - 572px);
 }
 
 a {
   text-decoration: none;
-}
-
-.main__header {
-  //   padding-left: calc(50% - 572px);
-  //   padding-right: calc(50% - 572px);
-  padding: 200px;
 }
 
 .main__header {
@@ -30,5 +30,31 @@ a {
     justify-content: space-between;
     padding-top: 25px;
     padding-bottom: 24px;
+  }
+}
+
+.header-top {
+  &__left {
+    display: flex;
+  }
+
+  &__logo-link {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+  }
+
+  &__logo-text {
+    font-family: 'Lato-300';
+    font-size: 27px;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: $text;
+  }
+
+  &__logo-text--colored {
+    font-family: 'Lato-900', sans-serif;
+    color: $accent-color;
   }
 }

@@ -1,3 +1,33 @@
+@font-face {
+  font-family: "Lato-300";
+  font-weight: 300;
+  font-style: normal;
+  src: url(/fonts/Lato-300.ttf);
+}
+@font-face {
+  font-family: "Lato-400";
+  font-weight: 400;
+  font-style: normal;
+  src: url(/fonts/Lato-400.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Lato-400-italic";
+  font-weight: 400;
+  font-style: italic;
+  src: url(/fonts/Lato-400-Italic.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Lato-700";
+  font-weight: 700;
+  font-style: normal;
+  src: url(/fonts/Lato-700.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Lato-900";
+  font-weight: 900;
+  font-style: normal;
+  src: url(/fonts/Lato-900.ttf) format("ttf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -5,14 +35,16 @@
 
 body {
   max-width: 1600px;
+  background-color: #ffffff;
+}
+
+.center {
+  padding-left: calc(50% - 572px);
+  padding-right: calc(50% - 572px);
 }
 
 a {
   text-decoration: none;
-}
-
-.main__header {
-  padding: 200px;
 }
 
 .main__header__header-top {
@@ -20,4 +52,25 @@ a {
   justify-content: space-between;
   padding-top: 25px;
   padding-bottom: 24px;
+}
+
+.header-top__left {
+  display: flex;
+}
+.header-top__logo-link {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.header-top__logo-text {
+  font-family: "Lato-300";
+  font-size: 27px;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #222222;
+}
+.header-top__logo-text--colored {
+  font-family: "Lato-900", sans-serif;
+  color: #f16d7f;
 }/*# sourceMappingURL=style.css.map */

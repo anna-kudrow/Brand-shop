@@ -4,17 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="main__header center">
-      <div class="main__header__header-top">
-        <div class="header-top__left">
-          <a class="logo-link" href="index.html">
-            <img src="images/logo.jpg" alt="logo" />
-          </a>
+    <header class="main__header">
+      <div class="container center">
+        <div class="main__header__header-top">
+          <div class="header-top__left">
+            <a class="header-top__logo-link" href="index.html">
+              <img src="images/logo.jpg" alt="logo" />
+              <p class="header-top__logo-text">
+                BRAN<span
+                  class="header-top__logo-text header-top__logo-text--colored"
+                  >D</span
+                >
+              </p>
+            </a>
+            <form action="#" method="get">
+              <label for="search">
+                <input
+                  type="search"
+                  name="search"
+                  id="search"
+                  placeholder="Search for Item..."
+                />
+              </label>
+            </form>
+          </div>
+          <div class="header-top__right"></div>
         </div>
-        <div class="header-top__right"></div>
       </div>
     </header>
   </body>
