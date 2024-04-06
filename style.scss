@@ -1,0 +1,34 @@
+// center witdth 1145 px
+
+// cannot find this color on the layout : #232323
+
+@import 'vars';
+@import 'fonts';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1600px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main__header {
+  //   padding-left: calc(50% - 572px);
+  //   padding-right: calc(50% - 572px);
+  padding: 200px;
+}
+
+.main__header {
+  &__header-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 24px;
+  }
+}

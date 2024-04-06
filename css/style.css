@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1600px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main__header {
+  padding: 200px;
+}
+
+.main__header__header-top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 24px;
+}/*# sourceMappingURL=style.css.map */
