@@ -4,6 +4,7 @@
 
 @import 'vars';
 @import 'fonts';
+@import 'mixins';
 
 * {
   margin: 0;
@@ -24,7 +25,7 @@ a {
   text-decoration: none;
 }
 
-.main__header {
+.main-header {
   &__header-top {
     display: flex;
     justify-content: space-between;
@@ -36,6 +37,7 @@ a {
 .header-top {
   &__left {
     display: flex;
+    gap: 37px;
   }
 
   &__logo-link {
@@ -56,5 +58,22 @@ a {
   &__logo-text--colored {
     font-family: 'Lato-900', sans-serif;
     color: $accent-color;
+  }
+
+  &__right {
+    display: flex;
+    gap: 26px;
+  }
+}
+
+// ----------INTRO-------------
+
+.intro {
+  background-image: url(images/top_picture.jpg);
+  padding-top: 276px;
+  padding-bottom: 297px;
+
+  &__moto {
+    display: flex;
   }
 }

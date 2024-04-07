@@ -47,7 +47,7 @@ a {
   text-decoration: none;
 }
 
-.main__header__header-top {
+.main-header__header-top {
   display: flex;
   justify-content: space-between;
   padding-top: 25px;
@@ -56,6 +56,7 @@ a {
 
 .header-top__left {
   display: flex;
+  gap: 37px;
 }
 .header-top__logo-link {
   display: flex;
@@ -73,4 +74,17 @@ a {
 .header-top__logo-text--colored {
   font-family: "Lato-900", sans-serif;
   color: #f16d7f;
+}
+.header-top__right {
+  display: flex;
+  gap: 26px;
+}
+
+.intro {
+  background-image: url(images/top_picture.jpg);
+  padding-top: 276px;
+  padding-bottom: 297px;
+}
+.intro__moto {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

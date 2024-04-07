@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="main__header">
-      <div class="container center">
-        <div class="main__header__header-top">
+    <header class="main-header">
+      <div class="center">
+        <div class="main-header__header-top">
           <div class="header-top__left">
             <a class="header-top__logo-link" href="index.html">
               <img src="images/logo.jpg" alt="logo" />
@@ -20,6 +20,27 @@
                 >
               </p>
             </a>
+
+            <button type="button">
+              <details class="header-top__browse">
+                <summary>Browse</summary>
+                <h3 class="header-top__browse-title">Women</h3>
+                <ul class="browse__dropdown-list">
+                  <li class="browse__dropdow-item">
+                    Dresses Tops Sweaters/Knits Jackets/Coats Blazers Denim
+                  </li>
+                  <li class="browse__dropdow-item">Leggings/Pants</li>
+                  <li class="browse__dropdow-item">Skirts/Shorts</li>
+                  <li class="browse__dropdow-item">Accessories</li>
+                  <li class="browse__dropdow-item">Bags/Purses</li>
+                  <li class="browse__dropdow-item">Swimwear/Underwear</li>
+                  <li class="browse__dropdow-item">Nightwear</li>
+                  <li class="browse__dropdow-item">Shoes</li>
+                  <li class="browse__dropdow-item">Beauty</li>
+                </ul>
+                <h3 class="header-top__browse-title">Men</h3>
+              </details>
+            </button>
             <form action="#" method="get">
               <label for="search">
                 <input
@@ -31,9 +52,39 @@
               </label>
             </form>
           </div>
-          <div class="header-top__right"></div>
+          <div class="header-top__right">
+            <img src="images/basket.svg" alt="basket" />
+            <button class="main-header__button button" type="button"></button>
+          </div>
+        </div>
+        <div class="main-header__header-bottom">
+          <nav class="header-bottom__nav">
+            <ul class="header-bottom__nav-list">
+              <li class="header-bottom__nav-item1">Home</li>
+              <li class="header-bottom__nav-item2">Man</li>
+              <li class="header-bottom__nav-item3">Women</li>
+              <li class="header-bottom__nav-item4">Kids</li>
+              <li class="header-bottom__nav-item5">Accoseriese</li>
+              <li class="header-bottom__nav-item6">Featured</li>
+              <li class="header-bottom__nav-item7">Hot Deals</li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>
+
+    <section class="intro">
+      <div class="center">
+        <div class="intro__moto">
+          <img src="images/top_moto_stick.svg" alt="moto decorative stick" />
+          <div class="intro__moto-text">
+            <p class="moto-up-text">THE BRAND</p>
+            <div class="moto-down-text">
+              OF LUXERIOUS <span class="moto-down-text--colored">FASHION</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
