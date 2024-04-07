@@ -47,6 +47,10 @@ a {
   text-decoration: none;
 }
 
+.button {
+  background-color: #f16d7f;
+}
+
 .main-header__header-top {
   display: flex;
   justify-content: space-between;
@@ -75,9 +79,43 @@ a {
   font-family: "Lato-900", sans-serif;
   color: #f16d7f;
 }
+.header-top__search-field {
+  display: flex;
+  align-items: center;
+}
 .header-top__right {
   display: flex;
   gap: 26px;
+}
+
+.search-field__button {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px 0px 0px 3px;
+  padding-left: 15px;
+  padding-right: 16px;
+  height: 38px;
+  font-family: "Lato-300";
+  font-size: 14px;
+  letter-spacing: 0.025em;
+  color: #222222;
+}
+.search-field__search-input {
+  height: 38px;
+  border: 1px solid #e6e6e6;
+  border-left: none;
+  border-radius: 0px 3px 3px 0px;
+  font-family: "Lato-300";
+  font-size: 14px;
+  line-height: 32px;
+  letter-spacing: 0.025em;
+  color: #a4a4a4;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.basket__button {
+  background-color: inherit;
+  border: none;
 }
 
 .intro {

@@ -21,39 +21,45 @@
               </p>
             </a>
 
-            <button type="button">
-              <details class="header-top__browse">
-                <summary>Browse</summary>
-                <h3 class="header-top__browse-title">Women</h3>
-                <ul class="browse__dropdown-list">
-                  <li class="browse__dropdow-item">
-                    Dresses Tops Sweaters/Knits Jackets/Coats Blazers Denim
-                  </li>
-                  <li class="browse__dropdow-item">Leggings/Pants</li>
-                  <li class="browse__dropdow-item">Skirts/Shorts</li>
-                  <li class="browse__dropdow-item">Accessories</li>
-                  <li class="browse__dropdow-item">Bags/Purses</li>
-                  <li class="browse__dropdow-item">Swimwear/Underwear</li>
-                  <li class="browse__dropdow-item">Nightwear</li>
-                  <li class="browse__dropdow-item">Shoes</li>
-                  <li class="browse__dropdow-item">Beauty</li>
-                </ul>
-                <h3 class="header-top__browse-title">Men</h3>
-              </details>
-            </button>
-            <form action="#" method="get">
-              <label for="search">
-                <input
-                  type="search"
-                  name="search"
-                  id="search"
-                  placeholder="Search for Item..."
-                />
-              </label>
-            </form>
+            <div class="header-top__search-field">
+              <button class="search-field__button" type="button">
+                <details class="header-top__browse">
+                  <summary>Browse</summary>
+                  <h3 class="header-top__browse-title">Women</h3>
+                  <ul class="browse__dropdown-list">
+                    <li class="browse__dropdow-item">
+                      Dresses Tops Sweaters/Knits Jackets/Coats Blazers Denim
+                    </li>
+                    <li class="browse__dropdow-item">Leggings/Pants</li>
+                    <li class="browse__dropdow-item">Skirts/Shorts</li>
+                    <li class="browse__dropdow-item">Accessories</li>
+                    <li class="browse__dropdow-item">Bags/Purses</li>
+                    <li class="browse__dropdow-item">Swimwear/Underwear</li>
+                    <li class="browse__dropdow-item">Nightwear</li>
+                    <li class="browse__dropdow-item">Shoes</li>
+                    <li class="browse__dropdow-item">Beauty</li>
+                  </ul>
+                  <h3 class="header-top__browse-title">Men</h3>
+                </details>
+              </button>
+              <form action="#" method="get">
+                <label for="search">
+                  <input
+                    class="search-field__search-input"
+                    type="search"
+                    name="search"
+                    id="search"
+                    placeholder="Search for Item..."
+                  />
+                </label>
+              </form>
+            </div>
           </div>
           <div class="header-top__right">
-            <img src="images/basket.svg" alt="basket" />
+            <button class="basket__button">
+              <img src="images/basket.svg" alt="basket" />
+            </button>
+
             <button class="main-header__button button" type="button"></button>
           </div>
         </div>
