@@ -14,6 +14,7 @@
 body {
   max-width: 1600px;
   background-color: $bg-color;
+  font-size: 'Lato-400';
 }
 
 .center {
@@ -27,6 +28,7 @@ a {
 
 .button {
   background-color: $accent-color;
+  border: transparent;
 }
 
 .main-header {
@@ -77,9 +79,9 @@ a {
     list-style-type: none;
   }
 
-  &__browse summary::after {
-    content: url('images/arrow_browse.jpg');
-  }
+  //   &__browse summary::after {
+  //     content: url('images/arrow_browse.jpg');
+  //   }
 }
 
 .browse {
@@ -99,8 +101,6 @@ a {
   &__button {
     border: 1px solid #e6e6e6;
     border-radius: 3px 0px 0px 3px;
-    padding-left: 15px;
-    padding-right: 16px;
     height: 38px;
     font-family: 'Lato-300';
     font-size: 14px;
@@ -138,10 +138,47 @@ a {
   border: none;
 }
 
+.main-header__account-button {
+  padding-left: 19px;
+  padding-right: 16px;
+}
+
+.main-header__account-details summary {
+  list-style-type: none;
+  font-family: 'Lato-400', sans-serif;
+  font-size: 15px;
+  line-height: 32px;
+  letter-spacing: 0.025em;
+  color: $white;
+}
+
+.header-bottom {
+  &__nav {
+    border: 1px solid #ececec;
+  }
+  &__nav-list {
+    list-style-type: none;
+    display: flex;
+    width: 680px;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  &__nav-item {
+    font-family: 'Lato-700', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: $text;
+    padding-top: 19px;
+    padding-bottom: 22px;
+  }
+}
+
 // ----------INTRO-------------
 
 .intro {
-  background-image: url(images/top_picture.jpg);
+  background-image: url('images/bg_top.png');
   padding-top: 276px;
   padding-bottom: 297px;
 

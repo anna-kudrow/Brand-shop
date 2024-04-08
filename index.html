@@ -8,85 +8,89 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="center">
-        <div class="main-header__header-top">
-          <div class="header-top__left">
-            <a class="header-top__logo-link" href="index.html">
-              <img src="images/logo.jpg" alt="logo" />
-              <p class="header-top__logo-text">
-                BRAN<span
-                  class="header-top__logo-text header-top__logo-text--colored"
-                  >D</span
-                >
-              </p>
-            </a>
+      <div class="main-header__header-top center">
+        <div class="header-top__left">
+          <a class="header-top__logo-link" href="index.html">
+            <img src="images/logo.jpg" alt="logo" />
+            <p class="header-top__logo-text">
+              BRAN<span
+                class="header-top__logo-text header-top__logo-text--colored"
+                >D</span
+              >
+            </p>
+          </a>
 
-            <div class="header-top__search-field">
-              <button class="search-field__button" type="button">
-                <details class="header-top__browse">
-                  <summary>Browse</summary>
-                  <div class="browse__details">
-                    <h3 class="header-top__browse-title">Women</h3>
-                    <ul class="browse__dropdown-list">
-                      <li class="browse__dropdow-item">Dresses</li>
-                      <li class="browse__dropdow-item">Tops</li>
-                      <li class="browse__dropdow-item">Sweaters/Knits</li>
-                      <li class="browse__dropdow-item">Jackets/Coats</li>
-                      <li class="browse__dropdow-item">Blazers</li>
-                      <li class="browse__dropdow-item">Denim</li>
-                      <li class="browse__dropdow-item">Leggings/Pants</li>
-                      <li class="browse__dropdow-item">Skirts/Shorts</li>
-                      <li class="browse__dropdow-item">Accessories</li>
-                    </ul>
-                    <h3 class="header-top__browse-title">Men</h3>
-                    <ul class="browse__dropdown-list">
-                      <li class="browse__dropdown-item">Tees/Tank tops</li>
-                      <li class="browse__dropdown-item">Shirts/Polos</li>
-                      <li class="browse__dropdown-item">Sweaters</li>
-                      <li class="browse__dropdown-item">Sweatshirts/Hoodies</li>
-                      <li class="browse__dropdown-item">Blazers</li>
-                      <li class="browse__dropdown-item">Jackets/vests</li>
-                    </ul>
-                  </div>
-                </details>
-              </button>
-              <form action="#" method="get">
-                <label for="search">
-                  <input
-                    class="search-field__search-input"
-                    type="search"
-                    name="search"
-                    id="search"
-                    placeholder="Search for Item..."
-                  />
-                </label>
-              </form>
-              <button class="search-field__search-button">
-                <img src="images/search.jpg" alt="search" />
-              </button>
-            </div>
-          </div>
-          <div class="header-top__right">
-            <button class="basket__button">
-              <img src="images/basket.svg" alt="basket" />
+          <div class="header-top__search-field">
+            <button class="search-field__button" type="button">
+              <details class="header-top__browse">
+                <summary>
+                  <span>Browse </span
+                  ><span><img src="images/arrow_browse.jpg" alt="" /></span>
+                </summary>
+                <div class="browse__details">
+                  <h3 class="header-top__browse-title">Women</h3>
+                  <ul class="browse__dropdown-list">
+                    <li class="browse__dropdow-item">Dresses</li>
+                    <li class="browse__dropdow-item">Tops</li>
+                    <li class="browse__dropdow-item">Sweaters/Knits</li>
+                    <li class="browse__dropdow-item">Jackets/Coats</li>
+                    <li class="browse__dropdow-item">Blazers</li>
+                    <li class="browse__dropdow-item">Denim</li>
+                    <li class="browse__dropdow-item">Leggings/Pants</li>
+                    <li class="browse__dropdow-item">Skirts/Shorts</li>
+                    <li class="browse__dropdow-item">Accessories</li>
+                  </ul>
+                  <h3 class="header-top__browse-title">Men</h3>
+                  <ul class="browse__dropdown-list">
+                    <li class="browse__dropdown-item">Tees/Tank tops</li>
+                    <li class="browse__dropdown-item">Shirts/Polos</li>
+                    <li class="browse__dropdown-item">Sweaters</li>
+                    <li class="browse__dropdown-item">Sweatshirts/Hoodies</li>
+                    <li class="browse__dropdown-item">Blazers</li>
+                    <li class="browse__dropdown-item">Jackets/vests</li>
+                  </ul>
+                </div>
+              </details>
             </button>
-
-            <button class="main-header__button button" type="button"></button>
+            <form action="#" method="get">
+              <label for="search">
+                <input
+                  class="search-field__search-input"
+                  type="search"
+                  name="search"
+                  id="search"
+                  placeholder="Search for Item..."
+                />
+              </label>
+            </form>
+            <button class="search-field__search-button">
+              <img src="images/search.jpg" alt="search" />
+            </button>
           </div>
         </div>
-        <div class="main-header__header-bottom">
-          <nav class="header-bottom__nav">
-            <ul class="header-bottom__nav-list">
-              <li class="header-bottom__nav-item1">Home</li>
-              <li class="header-bottom__nav-item2">Man</li>
-              <li class="header-bottom__nav-item3">Women</li>
-              <li class="header-bottom__nav-item4">Kids</li>
-              <li class="header-bottom__nav-item5">Accoseriese</li>
-              <li class="header-bottom__nav-item6">Featured</li>
-              <li class="header-bottom__nav-item7">Hot Deals</li>
-            </ul>
-          </nav>
+        <div class="header-top__right">
+          <button class="basket__button">
+            <img src="images/basket.svg" alt="basket" />
+          </button>
+          <button class="main-header__account-button button" type="button">
+            <details class="main-header__account-details">
+              <summary>My Account</summary>
+            </details>
+          </button>
         </div>
+      </div>
+      <div class="main-header__header-bottom">
+        <nav class="header-bottom__nav">
+          <ul class="header-bottom__nav-list">
+            <li class="header-bottom__nav-item">Home</li>
+            <li class="header-bottom__nav-item">Man</li>
+            <li class="header-bottom__nav-item">Women</li>
+            <li class="header-bottom__nav-item">Kids</li>
+            <li class="header-bottom__nav-item">Accoseriese</li>
+            <li class="header-bottom__nav-item">Featured</li>
+            <li class="header-bottom__nav-item">Hot Deals</li>
+          </ul>
+        </nav>
       </div>
     </header>
 
