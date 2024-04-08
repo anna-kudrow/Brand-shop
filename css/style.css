@@ -321,4 +321,11 @@ a {
 }
 .card__img {
   margin-bottom: 19px;
+}
+
+.offers-content {
+  display: flex;
+}
+.offers-content-left {
+  background-image: url(images/offers_bg.jpg);
 }/*# sourceMappingURL=style.css.map */

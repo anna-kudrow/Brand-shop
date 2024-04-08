@@ -350,3 +350,13 @@ a {
     margin-bottom: 19px;
   }
 }
+
+// -----------OFFERS-----------
+
+.offers-content {
+  display: flex;
+
+  &-left {
+    background-image: url(images/offers_bg.jpg);
+  }
+}
