@@ -35,7 +35,7 @@
 
 body {
   background-color: #ffffff;
-  font-size: "Lato-400", sans-serif;
+  font-family: "Lato-400", sans-serif;
   color: #222222;
 }
 
@@ -181,11 +181,6 @@ a {
   padding-bottom: 22px;
 }
 
-.intro {
-  background-image: url(images/bg_top.png);
-  max-height: 613px;
-  position: relative;
-}
 .intro__moto {
   display: flex;
   gap: 12px;
@@ -195,7 +190,6 @@ a {
 .intro__moto-text {
   font-family: "Lato-900";
   font-weight: 900;
-  line-height: 1.2;
   letter-spacing: 0.025em;
 }
 .intro__img {
@@ -251,4 +245,61 @@ a {
 .category__name-bottom {
   font-size: 30px;
   color: #f16d7f;
+}
+
+.products {
+  padding-top: 100px;
+}
+.products__info {
+  margin-bottom: 60px;
+}
+.products__title {
+  font-family: "Lato-700";
+  font-size: 30px;
+  line-height: 54px;
+  letter-spacing: 0.025em;
+  text-align: center;
+}
+.products__text {
+  font-size: 14px;
+  letter-spacing: 0.025em;
+  color: #9f9f9f;
+  text-align: center;
+}
+.products__cards {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 33px;
+       column-gap: 33px;
+  row-gap: 39px;
+}
+
+.product__card {
+  display: block;
+  max-width: 261px;
+}
+
+.product__card:hover {
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card__name {
+  font-size: 13px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #222222;
+  margin-bottom: 17px;
+  margin-left: 15px;
+}
+.card__price {
+  font-family: "Lato-700";
+  font-size: 16px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #f16d7f;
+  margin-left: 15px;
+  margin-bottom: 21px;
+}
+.card__img {
+  margin-bottom: 19px;
 }/*# sourceMappingURL=style.css.map */
