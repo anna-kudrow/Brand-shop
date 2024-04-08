@@ -2,9 +2,9 @@
 
 // cannot find this color on the layout : #232323
 
-@import 'vars';
-@import 'fonts';
-@import 'mixins';
+@import "vars";
+@import "fonts";
+@import "mixins";
 
 * {
   margin: 0;
@@ -12,9 +12,9 @@
 }
 
 body {
-  max-width: 1600px;
   background-color: $bg-color;
-  font-size: 'Lato-400';
+  font-size: "Lato-400";
+  color: $text;
 }
 
 .center {
@@ -53,7 +53,7 @@ a {
   }
 
   &__logo-text {
-    font-family: 'Lato-300';
+    font-family: "Lato-300";
     font-size: 27px;
     line-height: 32px;
     text-transform: uppercase;
@@ -62,7 +62,7 @@ a {
   }
 
   &__logo-text--colored {
-    font-family: 'Lato-900', sans-serif;
+    font-family: "Lato-900", sans-serif;
     color: $accent-color;
   }
 
@@ -102,7 +102,7 @@ a {
     border: 1px solid #e6e6e6;
     border-radius: 3px 0px 0px 3px;
     height: 38px;
-    font-family: 'Lato-300';
+    font-family: "Lato-300";
     font-size: 14px;
     letter-spacing: 0.025em;
     color: $text;
@@ -112,7 +112,7 @@ a {
     height: 38px;
     border: 1px solid #e6e6e6;
     border-left: none;
-    font-family: 'Lato-300';
+    font-family: "Lato-300";
     font-size: 14px;
     line-height: 32px;
     letter-spacing: 0.025em;
@@ -145,7 +145,7 @@ a {
 
 .main-header__account-details summary {
   list-style-type: none;
-  font-family: 'Lato-400', sans-serif;
+  font-family: "Lato-400", sans-serif;
   font-size: 15px;
   line-height: 32px;
   letter-spacing: 0.025em;
@@ -165,7 +165,7 @@ a {
   }
 
   &__nav-item {
-    font-family: 'Lato-700', sans-serif;
+    font-family: "Lato-700", sans-serif;
     font-size: 14px;
     line-height: 26px;
     text-transform: uppercase;
@@ -178,11 +178,60 @@ a {
 // ----------INTRO-------------
 
 .intro {
-  background-image: url('images/bg_top.png');
-  padding-top: 276px;
-  padding-bottom: 297px;
+  background-image: url(images/bg_top.png);
+  height: 613px;
+  position: relative;
+
+  //   background-image: url("images/top_picture.jpg");
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   height: 665px;
+  //   margin-bottom: 100px;
 
   &__moto {
     display: flex;
+    gap: 12px;
+    position: absolute;
+    top: 243px;
+  }
+
+  &__moto-text {
+    font-family: "Lato-900", sans-serif;
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: 0.025em;
+  }
+  &__img {
+    width: 100%;
+  }
+}
+.moto-up-text {
+  font-size: 60px;
+}
+
+.moto-down-text {
+  font-size: 40px;
+}
+
+.moto-down-text--colored {
+  color: $accent-color;
+}
+
+.categories {
+  padding-top: 98px;
+
+  &__item-img {
+    width: 100%;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 560px);
+    grid-template-rows: repeat(3, 261px);
+    gap: 21px;
+  }
+
+  &__item1 {
+    grid-row: span 2;
   }
 }

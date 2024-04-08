@@ -8,25 +8,25 @@
   font-family: "Lato-400";
   font-weight: 400;
   font-style: normal;
-  src: url(/fonts/Lato-400.ttf) format("ttf");
+  src: url(/fonts/Lato-400.ttf);
 }
 @font-face {
   font-family: "Lato-400-italic";
   font-weight: 400;
   font-style: italic;
-  src: url(/fonts/Lato-400-Italic.ttf) format("ttf");
+  src: url(/fonts/Lato-400-Italic.ttf);
 }
 @font-face {
   font-family: "Lato-700";
   font-weight: 700;
   font-style: normal;
-  src: url(/fonts/Lato-700.ttf) format("ttf");
+  src: url(/fonts/Lato-700.ttf);
 }
 @font-face {
   font-family: "Lato-900";
   font-weight: 900;
   font-style: normal;
-  src: url(/fonts/Lato-900.ttf) format("ttf");
+  src: url(/fonts/Lato-900.ttf);
 }
 * {
   margin: 0;
@@ -34,9 +34,9 @@
 }
 
 body {
-  max-width: 1600px;
   background-color: #ffffff;
   font-size: "Lato-400";
+  color: #222222;
 }
 
 .center {
@@ -182,10 +182,50 @@ a {
 }
 
 .intro {
-  background-image: url("images/bg_top.png");
-  padding-top: 276px;
-  padding-bottom: 297px;
+  background-image: url(images/bg_top.png);
+  height: 613px;
+  position: relative;
 }
 .intro__moto {
   display: flex;
+  gap: 12px;
+  position: absolute;
+  top: 243px;
+}
+.intro__moto-text {
+  font-family: "Lato-900", sans-serif;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: 0.025em;
+}
+.intro__img {
+  width: 100%;
+}
+
+.moto-up-text {
+  font-size: 60px;
+}
+
+.moto-down-text {
+  font-size: 40px;
+}
+
+.moto-down-text--colored {
+  color: #f16d7f;
+}
+
+.categories {
+  padding-top: 98px;
+}
+.categories__item-img {
+  width: 100%;
+}
+.categories__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 560px);
+  grid-template-rows: repeat(3, 261px);
+  gap: 21px;
+}
+.categories__item1 {
+  grid-row: span 2;
 }/*# sourceMappingURL=style.css.map */
