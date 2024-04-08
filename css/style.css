@@ -35,7 +35,7 @@
 
 body {
   background-color: #ffffff;
-  font-size: "Lato-400";
+  font-size: "Lato-400", sans-serif;
   color: #222222;
 }
 
@@ -78,7 +78,7 @@ a {
   color: #222222;
 }
 .header-top__logo-text--colored {
-  font-family: "Lato-900", sans-serif;
+  font-family: "Lato-900";
   color: #f16d7f;
 }
 .header-top__search-field {
@@ -154,7 +154,7 @@ a {
 
 .main-header__account-details summary {
   list-style-type: none;
-  font-family: "Lato-400", sans-serif;
+  font-family: "Lato-400";
   font-size: 15px;
   line-height: 32px;
   letter-spacing: 0.025em;
@@ -172,7 +172,7 @@ a {
   margin: 0 auto;
 }
 .header-bottom__nav-item {
-  font-family: "Lato-700", sans-serif;
+  font-family: "Lato-700";
   font-size: 14px;
   line-height: 26px;
   text-transform: uppercase;
@@ -183,7 +183,7 @@ a {
 
 .intro {
   background-image: url(images/bg_top.png);
-  height: 613px;
+  max-height: 613px;
   position: relative;
 }
 .intro__moto {
@@ -193,7 +193,7 @@ a {
   top: 243px;
 }
 .intro__moto-text {
-  font-family: "Lato-900", sans-serif;
+  font-family: "Lato-900";
   font-weight: 900;
   line-height: 1.2;
   letter-spacing: 0.025em;
@@ -217,6 +217,10 @@ a {
 .categories {
   padding-top: 98px;
 }
+.categories__item {
+  position: relative;
+  display: block;
+}
 .categories__item-img {
   width: 100%;
 }
@@ -228,4 +232,23 @@ a {
 }
 .categories__item1 {
   grid-row: span 2;
+}
+
+.category__name {
+  position: absolute;
+  top: 26px;
+  background-color: #ffffff;
+  padding: 16px 20px;
+}
+.category__name-top {
+  font-family: "Lato-900";
+  font-size: 18px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #222222;
+}
+.category__name-bottom {
+  font-size: 30px;
+  color: #f16d7f;
 }/*# sourceMappingURL=style.css.map */
