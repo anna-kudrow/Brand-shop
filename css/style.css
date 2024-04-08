@@ -51,6 +51,7 @@ a {
 .button {
   background-color: #f16d7f;
   border: transparent;
+  color: #ffffff;
 }
 
 .main-header__header-top {
@@ -249,6 +250,7 @@ a {
 
 .products {
   padding-top: 100px;
+  padding-bottom: 113px;
 }
 .products__info {
   margin-bottom: 60px;
@@ -272,6 +274,23 @@ a {
   -moz-column-gap: 33px;
        column-gap: 33px;
   row-gap: 39px;
+  margin-bottom: 58px;
+}
+.products__link {
+  display: block;
+  text-align: center;
+  padding: 18px 20px 19px 24px;
+}
+.products__link-button {
+  font-family: "Lato-700";
+  font-size: 16px;
+  line-height: 54px;
+  letter-spacing: 0.025em;
+  padding-left: 24px;
+  padding-right: 20px;
+}
+.products__button-wrapper {
+  display: flex;
 }
 
 .product__card {
