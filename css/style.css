@@ -186,7 +186,7 @@ a {
   display: flex;
   gap: 12px;
   position: absolute;
-  top: 243px;
+  top: 400px;
 }
 .intro__moto-text {
   font-family: "Lato-900";
@@ -325,7 +325,69 @@ a {
 
 .offers-content {
   display: flex;
+  height: 529px;
 }
 .offers-content-left {
-  background-image: url(images/offers_bg.jpg);
+  position: relative;
+}
+
+.offers-content-left__img {
+  width: 100%;
+  filter: brightness(0.8);
+}
+.offers-content-left__info {
+  position: absolute;
+  top: 134px;
+  left: 39px;
+}
+.offers-content-left__text {
+  font-family: "Lato-700";
+  font-size: 53.7px;
+  line-height: 1.2;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  margin-right: 7px;
+}
+.offers-content-left__text--colored {
+  color: #f16d7f;
+}
+.offers-content-left__text-bottom {
+  font-size: 32.2px;
+}
+
+.offers-content-right {
+  background-color: #222224;
+  padding: 48px 43px 66px 32px;
+}
+.offers-content-right__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 61px;
+}
+.offers-content-right__inner-item {
+  display: flex;
+  gap: 33px;
+}
+
+.inner-item__info {
+  padding-top: 7px;
+}
+.inner-item__title {
+  font-family: "Lato-700";
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.025em;
+  color: #fbfbfb;
+  margin-bottom: 17px;
+}
+.inner-item__text {
+  font-family: "Lato-300";
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.025em;
+  color: #fbfbfb;
+  max-width: 219px;
+}
+.inner-item__icon {
+  align-self: start;
 }/*# sourceMappingURL=style.css.map */

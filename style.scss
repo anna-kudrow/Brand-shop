@@ -193,7 +193,7 @@ a {
     display: flex;
     gap: 12px;
     position: absolute;
-    top: 243px;
+    top: 400px;
   }
 
   &__moto-text {
@@ -355,8 +355,82 @@ a {
 
 .offers-content {
   display: flex;
+  height: 529px;
 
   &-left {
-    background-image: url(images/offers_bg.jpg);
+    position: relative;
+  }
+}
+
+.offers-content-left {
+  &__img {
+    width: 100%;
+    filter: brightness(0.8);
+  }
+
+  &__info {
+    position: absolute;
+    top: 134px;
+    left: 39px;
+  }
+
+  &__text {
+    font-family: "Lato-700";
+    font-size: 53.7px;
+    line-height: 1.2;
+    letter-spacing: 0.025em;
+    color: $white;
+    margin-right: 7px;
+  }
+  &__text--colored {
+    color: $accent-color;
+  }
+
+  &__text-bottom {
+    font-size: 32.2px;
+  }
+}
+
+.offers-content-right {
+  background-color: $dark-color;
+  padding: 48px 43px 66px 32px;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+  }
+
+  &__inner-item {
+    display: flex;
+    gap: 33px;
+  }
+}
+
+.inner-item {
+  &__info {
+    padding-top: 7px;
+  }
+
+  &__title {
+    font-family: "Lato-700";
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.025em;
+    color: $light-color-text;
+    margin-bottom: 17px;
+  }
+
+  &__text {
+    font-family: "Lato-300";
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+    color: $light-color-text;
+    max-width: 219px;
+  }
+
+  &__icon {
+    align-self: start;
   }
 }
