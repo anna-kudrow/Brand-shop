@@ -394,4 +394,60 @@ a {
 }
 .inner-item__icon {
   align-self: start;
+}
+
+.subscribe-content {
+  max-width: 2000px;
+  display: flex;
+}
+.subscribe__reviews {
+  display: flex;
+  gap: 28px;
+  width: 50%;
+}
+
+.reviewer__photo {
+  border-radius: 50%;
+  width: 83px;
+  height: 83px;
+}
+.reviewer__name {
+  font-family: "Lato-700";
+  font-size: 16px;
+  letter-spacing: 0.025em;
+  color: #f16d7f;
+}
+.reviewer__city {
+  font-family: "Lato-300";
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 300;
+  color: #222224;
+}
+
+.review__text {
+  width: 386px;
+  font-family: "Lato-400-italic";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.025em;
+  color: #222224;
+  margin-bottom: 19px;
+}
+.review__content {
+  margin-top: 12px;
+}
+
+.subscribtion__title {
+  text-align: center;
+  font-size: 24px;
+  line-height: 54px;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #222224;
+}
+.subscribtion__subtitle {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: none;
 }/*# sourceMappingURL=style.css.map */

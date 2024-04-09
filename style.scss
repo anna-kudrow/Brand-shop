@@ -438,3 +438,77 @@ a {
     align-self: start;
   }
 }
+
+// ---------SUBSCRIBE--------------
+
+.subscribe {
+  // width: 1600px;
+  // height: 438px;
+  // background-image: url(images/upload-default-image.jpg);
+  &-content {
+    max-width: 2000px;
+    display: flex;
+  }
+
+  &__reviews {
+    display: flex;
+    gap: 28px;
+    width: 50%;
+  }
+}
+
+.reviewer {
+  &__photo {
+    border-radius: 50%;
+    width: 83px;
+    height: 83px;
+  }
+
+  &__name {
+    font-family: "Lato-700";
+    font-size: 16px;
+    letter-spacing: 0.025em;
+    color: $accent-color;
+  }
+
+  &__city {
+    font-family: "Lato-300";
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 300;
+    color: $dark-color;
+  }
+}
+
+.review {
+  &__text {
+    width: 386px;
+    font-family: "Lato-400-italic";
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.025em;
+    color: $dark-color;
+    margin-bottom: 19px;
+  }
+
+  &__content {
+    margin-top: 12px;
+  }
+}
+
+.subscribtion {
+  &__title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 54px;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: $dark-color;
+  }
+
+  &__subtitle {
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: none;
+  }
+}
