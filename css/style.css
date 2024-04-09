@@ -323,6 +323,10 @@ a {
   margin-bottom: 19px;
 }
 
+.offers {
+  padding-bottom: 97px;
+}
+
 .offers-content {
   display: flex;
   height: 529px;
@@ -362,11 +366,11 @@ a {
 .offers-content-right__inner {
   display: flex;
   flex-direction: column;
-  gap: 61px;
+  gap: 54px;
 }
 .offers-content-right__inner-item {
   display: flex;
-  gap: 33px;
+  gap: 31px;
 }
 
 .inner-item__info {
@@ -378,12 +382,12 @@ a {
   line-height: 1.2;
   letter-spacing: 0.025em;
   color: #fbfbfb;
-  margin-bottom: 17px;
+  margin-bottom: 14px;
 }
 .inner-item__text {
   font-family: "Lato-300";
   font-size: 14px;
-  line-height: 24px;
+  line-height: 22px;
   letter-spacing: 0.025em;
   color: #fbfbfb;
   max-width: 219px;

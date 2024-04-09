@@ -353,6 +353,10 @@ a {
 
 // -----------OFFERS-----------
 
+.offers {
+  padding-bottom: 97px;
+}
+
 .offers-content {
   display: flex;
   height: 529px;
@@ -398,12 +402,12 @@ a {
   &__inner {
     display: flex;
     flex-direction: column;
-    gap: 61px;
+    gap: 54px;
   }
 
   &__inner-item {
     display: flex;
-    gap: 33px;
+    gap: 31px;
   }
 }
 
@@ -418,13 +422,13 @@ a {
     line-height: 1.2;
     letter-spacing: 0.025em;
     color: $light-color-text;
-    margin-bottom: 17px;
+    margin-bottom: 14px;
   }
 
   &__text {
     font-family: "Lato-300";
     font-size: 14px;
-    line-height: 24px;
+    line-height: 22px;
     letter-spacing: 0.025em;
     color: $light-color-text;
     max-width: 219px;
