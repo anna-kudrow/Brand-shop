@@ -65,23 +65,6 @@ a {
   display: flex;
   gap: 37px;
 }
-.header-top__logo-link {
-  display: flex;
-  align-items: center;
-  gap: 13px;
-}
-.header-top__logo-text {
-  font-family: "Lato-300";
-  font-size: 27px;
-  line-height: 32px;
-  text-transform: uppercase;
-  letter-spacing: 0.025em;
-  color: #222222;
-}
-.header-top__logo-text--colored {
-  font-family: "Lato-900";
-  color: #f16d7f;
-}
 .header-top__search-field {
   display: flex;
   align-items: center;
@@ -92,6 +75,24 @@ a {
 }
 .header-top__browse summary {
   list-style-type: none;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.logo-text {
+  font-family: "Lato-300";
+  font-size: 27px;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #222222;
+}
+.logo-text--colored {
+  font-family: "Lato-900";
+  color: #f16d7f;
 }
 
 .browse__dropdown-list {
@@ -396,6 +397,9 @@ a {
   align-self: start;
 }
 
+.subscribe {
+  background-color: #a4a4a4;
+}
 .subscribe-content {
   max-width: 2000px;
   display: flex;
@@ -404,6 +408,13 @@ a {
   display: flex;
   gap: 28px;
   width: 50%;
+  margin-top: 111px;
+}
+.subscribe__subscribtion {
+  width: 50%;
+  padding-top: 148px;
+  padding-bottom: 168px;
+  border-left: 1px solid white;
 }
 
 .reviewer__photo {
@@ -441,13 +452,43 @@ a {
 .subscribtion__title {
   text-align: center;
   font-size: 24px;
-  line-height: 54px;
   text-transform: uppercase;
   letter-spacing: 0.025em;
   color: #222224;
+  margin-bottom: 35px;
+  border-radius: 23px;
 }
 .subscribtion__subtitle {
   font-size: 14px;
   line-height: 24px;
   text-transform: none;
+}
+.subscribtion__form {
+  display: flex;
+  margin-left: 92px;
+}
+.subscribtion__field {
+  height: 46px;
+  border: none;
+  background-color: #e1e1e1;
+  border-radius: 23px 0 0 23px;
+  padding: 0 28px;
+  width: 226px;
+}
+.subscribtion__button {
+  padding: 0 21px 0 20px;
+  border-radius: 0 23px 23px 0;
+}
+
+.bottom-navigation {
+  height: 458px;
+  padding-top: 109px;
+}
+.bottom-navigation__content {
+  display: flex;
+  gap: 64px;
+}
+
+.left-block__text {
+  width: 427px;
 }/*# sourceMappingURL=style.css.map */
