@@ -314,6 +314,8 @@ a {
 
   &__button-wrapper {
     display: flex;
+    gap: 9px;
+    align-items: center;
   }
 }
 .product__card {
@@ -443,10 +445,11 @@ a {
 
 .subscribe {
   // width: 1600px;
-  // height: 438px;
-  // background-image: url(images/upload-default-image.jpg);
+  height: 438px;
+  background-image: url(images/subscribe_bg.jpg);
+  background-size: cover;
 
-  background-color: #a4a4a4;
+  // background-color: #a4a4a4;
   &-content {
     max-width: 2000px;
     display: flex;

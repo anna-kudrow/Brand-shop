@@ -292,6 +292,8 @@ a {
 }
 .products__button-wrapper {
   display: flex;
+  gap: 9px;
+  align-items: center;
 }
 
 .product__card {
@@ -398,7 +400,9 @@ a {
 }
 
 .subscribe {
-  background-color: #a4a4a4;
+  height: 438px;
+  background-image: url(images/subscribe_bg.jpg);
+  background-size: cover;
 }
 .subscribe-content {
   max-width: 2000px;
