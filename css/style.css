@@ -174,6 +174,10 @@ a {
   margin: 0 auto;
 }
 .header-bottom__nav-item {
+  position: relative;
+}
+
+.menu-link {
   font-family: "Lato-700";
   font-size: 14px;
   line-height: 26px;
@@ -181,6 +185,43 @@ a {
   color: #222222;
   padding-top: 19px;
   padding-bottom: 22px;
+  display: block;
+}
+
+.mega-box {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  padding: 20px 20px 20px 25px;
+  display: flex;
+  gap: 46px;
+  position: absolute;
+  top: 47px;
+  left: 0;
+}
+
+.mega-title {
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 14px;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #232323;
+  margin-bottom: 16px;
+  width: 235px;
+}
+
+.mega-link {
+  font-family: "Lato-400";
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.025em;
+  color: #646464;
+  display: block;
+}
+
+.mega-link:hover {
+  color: #f16d7f;
 }
 
 .intro__moto {
@@ -400,9 +441,10 @@ a {
 }
 
 .subscribe {
-  height: 438px;
-  background-image: url(images/subscribe_bg.jpg);
+  background-image: url("../images/subscriibe_bg.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 438px;
 }
 .subscribe-content {
   max-width: 2000px;

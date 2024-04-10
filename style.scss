@@ -166,14 +166,56 @@ a {
   }
 
   &__nav-item {
-    font-family: "Lato-700";
-    font-size: 14px;
-    line-height: 26px;
-    text-transform: uppercase;
-    color: $text;
-    padding-top: 19px;
-    padding-bottom: 22px;
+    position: relative;
   }
+}
+
+.menu-link {
+  font-family: "Lato-700";
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: $text;
+  padding-top: 19px;
+  padding-bottom: 22px;
+  display: block;
+}
+
+.mega-box {
+  background-color: $white;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  padding: 20px 20px 20px 25px;
+  display: flex;
+  gap: 46px;
+  // flex-wrap: wrap;
+  position: absolute;
+  top: 47px;
+  left: 0;
+}
+
+.mega-title {
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 14px;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #232323;
+  margin-bottom: 16px;
+  width: 235px;
+}
+
+.mega-link {
+  font-family: "Lato-400";
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.025em;
+  color: #646464;
+  display: block;
+}
+
+.mega-link:hover {
+  color: $accent-color;
 }
 
 // ----------INTRO-------------
@@ -444,12 +486,11 @@ a {
 // ---------SUBSCRIBE--------------
 
 .subscribe {
-  // width: 1600px;
-  height: 438px;
-  background-image: url(images/subscribe_bg.jpg);
+  background-image: url("../images/subscriibe_bg.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 438px;
 
-  // background-color: #a4a4a4;
   &-content {
     max-width: 2000px;
     display: flex;
