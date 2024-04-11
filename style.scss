@@ -60,10 +60,6 @@ a {
   &__browse summary {
     list-style-type: none;
   }
-
-  //   &__browse summary::after {
-  //     content: url('images/arrow_browse.jpg');
-  //   }
 }
 
 .logo {
@@ -101,7 +97,7 @@ a {
 
 .search-field {
   &__button {
-    border: 1px solid #e6e6e6;
+    border: 1px solid $border-lighter-color;
     border-radius: 3px 0px 0px 3px;
     height: 38px;
     font-family: "Lato-300";
@@ -112,7 +108,7 @@ a {
   }
   &__search-input {
     height: 38px;
-    border: 1px solid #e6e6e6;
+    border: 1px solid $border-lighter-color;
     border-left: none;
     font-family: "Lato-300";
     font-size: 14px;
@@ -127,7 +123,7 @@ a {
   &__search-button {
     border-radius: 0 3px 3px 0;
     height: 38px;
-    border: 1px solid #e6e6e6;
+    border: 1px solid $border-lighter-color;
     border-left: none;
     padding-left: 11px;
     padding-right: 11px;
@@ -194,7 +190,7 @@ a {
 .mega-box {
   background-color: $white;
   border-radius: 5px;
-  border: 1px solid #e8e8e8;
+  border: 1px solid $border-index-color;
   padding: 20px 20px 20px 25px;
   display: flex;
   gap: 46px;
@@ -212,13 +208,13 @@ a {
     position: absolute;
     top: -8px;
     left: 10px;
-    border-left: 1px solid #e8e8e8;
-    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid $border-index-color;
+    border-top: 1px solid $border-index-color;
   }
 }
 
 .mega-title {
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid $border-index-color;
   font-size: 14px;
   line-height: 32px;
   text-transform: uppercase;
@@ -691,7 +687,7 @@ a {
 }
 
 .footer {
-  background-color: #e6e6e6;
+  background-color: $border-lighter-color;
   padding-top: 24px;
   padding-bottom: 23px;
 
