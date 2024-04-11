@@ -28,6 +28,24 @@
   font-style: normal;
   src: url(/fonts/Lato-900.ttf);
 }
+.arrivals__header {
+  padding: 65px 0;
+  background-color: #f8f3f4;
+  display: flex;
+  justify-content: space-between;
+}
+.arrivals__header-title {
+  font-family: "Lato-900";
+  font-size: 24px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #f16d7f;
+}
+
+.product-presentation__slider {
+  background-color: #f7f7f7;
+}
+
 * {
   margin: 0;
   padding: 0;
