@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: $bg-color;
+  background-color: $white;
   font-family: "Lato-400", sans-serif;
   color: $text;
 }
@@ -167,6 +167,9 @@ a {
 
   &__nav-item {
     position: relative;
+    &:hover .mega-box {
+      display: flex;
+    }
   }
 }
 
@@ -179,6 +182,12 @@ a {
   padding-top: 19px;
   padding-bottom: 22px;
   display: block;
+  // transition: scale 0.6s;
+
+  &:hover {
+    color: $accent-color;
+    transform: scale(1.2);
+  }
 }
 
 .mega-box {
@@ -188,10 +197,23 @@ a {
   padding: 20px 20px 20px 25px;
   display: flex;
   gap: 46px;
-  // flex-wrap: wrap;
   position: absolute;
-  top: 47px;
+  top: 50px;
   left: 0;
+  display: none;
+  &::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -8px;
+    left: 10px;
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
+  }
 }
 
 .mega-title {
@@ -218,23 +240,27 @@ a {
   color: $accent-color;
 }
 
+.reverse:hover .mega-box {
+  right: 0;
+  left: auto;
+  &::before {
+    top: -8px;
+    right: 10px;
+    left: auto;
+  }
+}
+
 // ----------INTRO-------------
 
 .intro {
-  //   background-image: url(images/bg_top.png);
-  //   max-height: 613px;
-  //   position: relative;
-
-  //   background-image: url("images/top_picture.jpg");
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  //   height: 665px;
-  //   margin-bottom: 100px;
+  background-image: url("../images/bg_top.png");
+  height: 613px;
+  display: flex;
+  align-items: center;
 
   &__moto {
     display: flex;
     gap: 12px;
-    position: absolute;
     top: 400px;
   }
 
@@ -244,10 +270,8 @@ a {
     // line-height: 1.2;
     letter-spacing: 0.025em;
   }
-  &__img {
-    width: 100%;
-  }
 }
+
 .moto-up-text {
   font-size: 60px;
 }
