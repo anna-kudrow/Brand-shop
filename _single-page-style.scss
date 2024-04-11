@@ -4,6 +4,7 @@
     background-color: $bg-pink;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #eaeaea;
   }
 
   &__header-title {
@@ -15,6 +16,42 @@
   }
 }
 
-.product-presentation__slider {
+.prod-photo {
+  display: flex;
+  justify-content: center;
   background-color: #f7f7f7;
+}
+
+.prod-description {
+  background-color: $white;
+  padding: 73px 0 122px;
+
+  &__title {
+    font-family: "Lato-700";
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: $accent-color;
+  }
+
+  &__name {
+    font-family: "Lato-900";
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #4d4d4d;
+    text-align: center;
+    margin-bottom: 67px;
+  }
+
+  &__descrip {
+    font-family: "Lato-300";
+    font-size: 14px;
+    line-height: 24px;
+    color: #5e5e5e;
+    margin-bottom: 28px;
+    max-width: 620px;
+    text-align: center;
+    margin: 0 auto 28px;
+  }
 }
