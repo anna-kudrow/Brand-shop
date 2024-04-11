@@ -4,7 +4,7 @@
     background-color: $bg-pink;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 1px solid $border-bottom-color;
   }
 
   &__header-title {
@@ -53,5 +53,65 @@
     max-width: 620px;
     text-align: center;
     margin: 0 auto 28px;
+  }
+
+  &__add-info {
+    display: flex;
+    gap: 44px;
+    justify-content: center;
+    margin-bottom: 37px;
+  }
+
+  &__price {
+    font-family: "Lato-700";
+    font-size: 24px;
+    line-height: 24px;
+    color: $accent-color;
+    text-align: center;
+    width: 642px;
+    margin: 0 auto 63px;
+    border-bottom: 1px solid $border-bottom-color;
+    padding-bottom: 43px;
+  }
+
+  &__settings {
+    display: flex;
+    gap: 53px;
+    justify-content: center;
+    margin-bottom: 28px;
+  }
+
+  &__button {
+    font-family: "Lato-700";
+    font-size: 16px;
+    line-height: 1.2;
+    color: $accent-color;
+    margin: 0 auto;
+    display: flex;
+    height: 55px;
+    background-color: $white;
+    border: 1px solid $accent-color;
+    align-items: center;
+    padding: 0 206px;
+    & img {
+      margin-right: 15px;
+    }
+  }
+}
+
+.settings-text {
+  font-family: "Lato-700";
+  font-size: 14px;
+  line-height: 24px;
+  color: #2f2f2f;
+}
+
+.add-info__text {
+  font-family: "Lato-700";
+  font-size: 14px;
+  line-height: 24px;
+  color: #b9b9b9;
+  &--bold {
+    color: #2f2f2f;
   }
 }
