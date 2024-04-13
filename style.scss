@@ -381,13 +381,20 @@ a {
     align-items: center;
   }
 }
+
 .product__card {
-  display: block;
   max-width: 261px;
+  position: relative;
 }
 
 .product__card:hover {
   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+  .add-box {
+    display: flex;
+  }
+  .card__img {
+    filter: brightness(0.3);
+  }
 }
 
 .card {
@@ -413,6 +420,34 @@ a {
 
   &__img {
     margin-bottom: 19px;
+  }
+}
+
+.add {
+  &-box {
+    position: absolute;
+    top: 98px;
+    width: 100%;
+    justify-content: space-around;
+    pointer-events: none;
+    display: none;
+  }
+  &-link {
+    display: flex;
+    gap: 8px;
+    padding: 10px 13px 7px 12px;
+    border: 1px solid $white;
+    align-items: center;
+    pointer-events: all;
+  }
+  &-link:hover {
+    box-shadow: 0 0 10px 0 $white;
+  }
+  &-text {
+    font-family: "Lato-700";
+    font-size: 13px;
+    line-height: 1.2;
+    color: $white;
   }
 }
 
