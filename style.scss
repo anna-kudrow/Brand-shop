@@ -259,6 +259,10 @@ a {
     display: flex;
     gap: 12px;
     top: 400px;
+    align-items: center;
+    & img {
+      height: 100px;
+    }
   }
 
   &__moto-text {
@@ -287,6 +291,12 @@ a {
   &__item {
     position: relative;
     display: block;
+    transition: transform 0.6s;
+  }
+
+  &__item:hover {
+    transform: scale(1.15);
+    z-index: 100;
   }
 
   &__item-img {
