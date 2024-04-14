@@ -197,6 +197,9 @@
 .man-products-box {
   width: 75%;
 }
+.man-products-sorted__details {
+  position: relative;
+}
 .man-products-sorted__details-list {
   list-style: none;
 }
@@ -209,12 +212,17 @@
   display: inline-block;
   border: 5px solid transparent;
   border-top: 5px solid #6f6e6e;
+  position: absolute;
+  right: 0;
+  top: 8px;
 }
-.man-products-sorted__summary[open]::after {
+
+.man-products-sorted__details[open] .man-products-sorted__summary::after {
   content: "";
   display: inline-block;
   border: 5px solid transparent;
-  border-top: 5px solid #f16d7f;
+  border-bottom: 5px solid #f16d7f;
+  top: 0;
 }
 
 * {

@@ -9,6 +9,10 @@
   &-box {
     width: 75%;
   }
+
+  &-sorted__details {
+    position: relative;
+  }
   &-sorted__details-list {
     list-style: none;
   }
@@ -23,12 +27,16 @@
     display: inline-block;
     border: 5px solid transparent;
     border-top: 5px solid #6f6e6e;
+    position: absolute;
+    right: 0;
+    top: 8px;
   }
+}
 
-  &-sorted__summary[open]::after {
-    content: "";
-    display: inline-block;
-    border: 5px solid transparent;
-    border-top: 5px solid $accent-color;
-  }
+.man-products-sorted__details[open] .man-products-sorted__summary::after {
+  content: "";
+  display: inline-block;
+  border: 5px solid transparent;
+  border-bottom: 5px solid $accent-color;
+  top: 0;
 }
