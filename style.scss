@@ -802,20 +802,26 @@ a {
   width: 32px;
   height: 32px;
   background-color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .media__link:hover {
   background-color: $accent-color;
+  & path {
+    fill: $white;
+  }
 }
 
 // .media__link:visited {
 //   background-color: ;
 // }
 
-.media__img {
-  text-align: center;
-  margin: auto;
-  align-self: center;
-  display: flex;
-  margin-top: 7px;
-}
+// .media__img {
+//   text-align: center;
+//   margin: auto;
+//   align-self: center;
+//   display: flex;
+//   margin-top: 7px;
+// }

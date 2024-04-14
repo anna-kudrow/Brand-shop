@@ -882,16 +882,14 @@ a {
   width: 32px;
   height: 32px;
   background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .media__link:hover {
   background-color: #f16d7f;
 }
-
-.media__img {
-  text-align: center;
-  margin: auto;
-  align-self: center;
-  display: flex;
-  margin-top: 7px;
+.media__link:hover path {
+  fill: #ffffff;
 }/*# sourceMappingURL=style.css.map */
