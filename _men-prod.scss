@@ -1,0 +1,34 @@
+.man-products {
+  &-content {
+    display: flex;
+    gap: 4%;
+  }
+  &-sorted {
+    width: 21%;
+  }
+  &-box {
+    width: 75%;
+  }
+  &-sorted__details-list {
+    list-style: none;
+  }
+
+  &-sorted__summary {
+    list-style: none;
+    margin-right: 137px;
+  }
+
+  &-sorted__summary::after {
+    content: "";
+    display: inline-block;
+    border: 5px solid transparent;
+    border-top: 5px solid #6f6e6e;
+  }
+
+  &-sorted__summary[open]::after {
+    content: "";
+    display: inline-block;
+    border: 5px solid transparent;
+    border-top: 5px solid $accent-color;
+  }
+}
