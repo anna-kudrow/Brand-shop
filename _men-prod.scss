@@ -145,4 +145,44 @@
   margin-bottom: 48px;
   display: flex;
   align-items: center;
+  gap: 10px;
+
+  &__box {
+    display: flex;
+    background-color: $white;
+    border: 1px solid #ebebeb;
+    margin-left: 9px;
+    padding-right: 6px;
+    & img {
+      width: 9px;
+      height: 6px;
+      align-self: center;
+    }
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 26px;
+    color: $gray-text;
+    border: none;
+  }
+
+  &__select {
+    padding: 0 21px 0 9px;
+    appearance: none;
+    // &::after {
+    //   content: "";
+    //   display: inline-block;
+    //   border: 5px solid transparent;
+    //   border-top: 5px solid #6f6e6e;
+    // position: absolute;
+    // right: 0;
+    // top: 20px;
+    // }
+  }
+}
+
+.sort-by__text {
+  border-right: 1px solid #ebebeb;
+  padding: 0 8px 0 13px;
 }
