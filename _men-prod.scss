@@ -187,3 +187,30 @@
   border-right: 1px solid #ebebeb;
   padding: 0 8px 0 13px;
 }
+
+.offers-content-info__inner.flex-row {
+  flex-direction: row;
+  justify-content: space-between;
+  // align-items: center;
+}
+
+.offers-content-info__inner-item.flex-column {
+  flex-direction: column;
+  // align-items: center;
+}
+
+.inner-item__icon.align-self {
+  align-self: center;
+}
+
+.inner-item__info.middlie-text {
+  text-align: center;
+}
+
+.offers-content-info.paddings {
+  padding: 89px 0 114px;
+}
+
+.inner-item__text.width {
+  max-width: 310px;
+}

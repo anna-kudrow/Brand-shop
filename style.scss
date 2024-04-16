@@ -182,13 +182,20 @@ a {
   padding-right: 16px;
 }
 
-.main-header__account-details summary {
+.account-button__text {
   list-style-type: none;
   font-family: "Lato-400";
   font-size: 15px;
   line-height: 32px;
   letter-spacing: 0.025em;
   color: $white;
+
+  &::after {
+    content: "";
+    display: inline-block;
+    border: 5px solid transparent;
+    border-top: 5px solid $white;
+  }
 }
 
 .header-bottom {
@@ -520,12 +527,12 @@ a {
   display: flex;
   height: 529px;
 
-  &-left {
+  &-pic {
     position: relative;
   }
 }
 
-.offers-content-left {
+.offers-content-pic {
   &__img {
     width: 100%;
     filter: brightness(0.8);
@@ -554,7 +561,7 @@ a {
   }
 }
 
-.offers-content-right {
+.offers-content-info {
   background-color: $dark-color;
   padding: 48px 43px 66px 32px;
 
