@@ -14,4 +14,30 @@
     text-transform: uppercase;
     color: $accent-color;
   }
+
+  &__breadcrumps {
+    display: flex;
+    list-style-type: none;
+  }
+}
+.breadcrumps__link {
+  font-family: "Lato-300";
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #636363;
+}
+
+.breadcrumps__item {
+  &:not(:last-child):after {
+    content: "/";
+    color: #636363;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
+
+.breadcrumps__item:last-child a {
+  font-family: "Lato-700";
+  color: $accent-color;
 }
