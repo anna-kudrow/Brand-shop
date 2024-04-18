@@ -444,7 +444,7 @@
 }
 .order-info__additional {
   margin-top: 33px;
-  margin-bottom: 38px;
+  margin-bottom: 49px;
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -455,6 +455,11 @@
   line-height: 1.2;
   text-transform: uppercase;
   color: #4a4a4a;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  text-align: center;
+  width: 180px;
+  height: 50px;
 }
 
 .additional__link {
@@ -465,6 +470,8 @@
   display: flex;
   padding-top: 19px;
   padding-left: 25px;
+  gap: 291px;
+  margin-bottom: 79px;
 }
 
 .radio-box {
@@ -482,6 +489,41 @@
   display: flex;
   align-items: center;
   gap: 4px;
+}
+
+.red-astrix {
+  font-size: 17px;
+  line-height: 20px;
+  color: #ff0d0d;
+}
+
+.login-form {
+  margin-top: 27px;
+}
+.login-form__label {
+  margin-bottom: 16px;
+  display: block;
+  margin-bottom: 0;
+}
+.login-form__input {
+  border: 1px solid #eaeaea;
+  width: 390px;
+  height: 45px;
+  margin-bottom: 22px;
+}
+
+.warning-text {
+  font-size: 13px;
+  line-height: 20px;
+  color: #ff0d0d;
+  margin-bottom: 32px;
+}
+
+.forgot {
+  margin-left: 32px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #222222;
 }
 
 * {
