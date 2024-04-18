@@ -572,6 +572,12 @@ a {
   gap: 26px;
   align-items: center;
 }
+.header-top__right-details {
+  position: relative;
+}
+.header-top__right-details summary {
+  list-style-type: none;
+}
 .header-top__browse summary {
   list-style-type: none;
 }
@@ -706,6 +712,86 @@ a {
   margin-left: 8px;
   top: 3px;
   position: relative;
+}
+
+.purchase {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  gap: 15px;
+}
+.purchase__name {
+  font-family: "Lato-700";
+  font-size: 12px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #222222;
+  margin-bottom: 10px;
+}
+.purchase__cancel {
+  height: 15px;
+  width: 15px;
+  margin-left: 40px;
+}
+
+.rate-stars {
+  margin-bottom: 12px;
+}
+
+.qnt-info {
+  font-size: 12px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #f16d7f;
+}
+
+.bascket-box {
+  padding: 20px 17px;
+  position: absolute;
+  background-color: #ffffff;
+  top: 52px;
+  width: 262px;
+  border-radius: 5px;
+}
+
+.total-summ {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-text {
+  font-family: "Lato-700";
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.purchase__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  margin-top: 32px;
+}
+
+.purchase__button {
+  border: 1px solid #eaeaea;
+  display: block;
+  margin-bottom: 0 auto;
+  text-align: center;
+  padding: 19px 0;
+  font-family: "Lato-700";
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #4a4a4a;
+}
+.purchase__button:hover {
+  border: 1px solid #f16d7f;
+  color: #f16d7f;
 }
 
 .header-bottom__nav {
