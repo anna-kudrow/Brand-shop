@@ -410,9 +410,62 @@
                   <p class="order-info__text-small">
                     Register with us for future convenience
                   </p>
-                  <div class="radio-box">
-                    <p class="radio-item"><input type="radio" class="order-info__text-middle">checkout as guest</input></p>
+                  <form action="#" class="radio-box">
+                    <div class="radio__item">
+                      <input
+                        class="radio-item"
+                        type="radio"
+                        name="guest"
+                        id="guest"
+                      />
+                      <label class="order-info__text-middle" for="guest"
+                        >checkout as guest</label
+                      >
+                    </div>
+
+                    <div class="radio__item">
+                      <input
+                        class="radio-item"
+                        type="radio"
+                        name="register"
+                        id="register"
+                      />
+                      <label class="order-info__text-middle" for="register"
+                        >register</label
+                      >
+                    </div>
+                  </form>
+                  <p class="order-info__text-big">register and save time!</p>
+                  <p class="order-info__text-small">
+                    Register with us for future convenience
+                  </p>
+                  <div class="order-info__additional">
+                    <a href="#" class="additional__link">
+                      <div class="additional__wrapper">
+                        <img
+                          height="8px"
+                          src="images/order_info_arrows.jpg"
+                          alt="arrow"
+                        />
+                        <p class="additional__text order-info__text-small">
+                          Fast and easy checkout
+                        </p>
+                      </div>
+                    </a>
+                    <div class="additional__wrapper">
+                        <img
+                          height="8px"
+                          src="images/order_info_arrows.jpg"
+                          alt="arrow"
+                        />
+                        <p class="additional__text order-info__text-small">
+                          Easy access to your order history and status
+                        </p>
+                      </div>
+                    </a>
                   </div>
+                  <button class="order-info__button" type="button">Continue;
+</button>
                 </div>
                 <div class="order-info__register-form"></div>
               </div>

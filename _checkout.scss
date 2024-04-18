@@ -41,6 +41,27 @@
     text-transform: uppercase;
     color: $text;
   }
+
+  &__additional {
+    margin-top: 33px;
+    margin-bottom: 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  &__button {
+    font-family: "Lato-700";
+    font-size: 14px;
+    line-height: 1.2;
+
+    text-transform: uppercase;
+    color: #4a4a4a;
+  }
+}
+
+.additional__link {
+  display: block;
 }
 
 .details__box {
@@ -51,4 +72,17 @@
 
 .radio-box {
   margin-top: 31px;
+  margin-bottom: 33px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  & label {
+    margin-left: 14px;
+  }
+}
+
+.additional__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
