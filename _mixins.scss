@@ -14,3 +14,11 @@
   letter-spacing: 0.025em;
   color: #232323;
 }
+
+@mixin field-text() {
+  font-family: "Lato-300";
+  font-size: 13px;
+  line-height: 1.2;
+  color: #b1b1b1;
+  // padding-left: 18px;
+}
