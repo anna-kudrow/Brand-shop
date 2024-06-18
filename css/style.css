@@ -682,6 +682,15 @@
   top: 21px;
 }
 
+.coupon__text {
+  font-family: "Lato-300";
+  font-size: 14px;
+  line-height: 1.2;
+  color: #000000;
+  margin-top: 6px;
+  margin-bottom: 24px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1209,6 +1218,13 @@ a {
 }
 .card__img {
   margin-bottom: 19px;
+}
+.card__descrip {
+  font-size: 13px;
+  line-height: 1.2;
+  color: #222222;
+  margin-bottom: 17px;
+  margin-left: 15px;
 }
 
 .add-box {
