@@ -1235,15 +1235,16 @@ a {
   pointer-events: none;
   display: none;
 }
-.add-link {
+.add-button {
   display: flex;
   gap: 8px;
   padding: 10px 13px 7px 12px;
   border: 1px solid #ffffff;
   align-items: center;
   pointer-events: all;
+  background-color: transparent;
 }
-.add-link:hover {
+.add-button:hover {
   box-shadow: 0 0 10px 0 #ffffff;
 }
 .add-text {

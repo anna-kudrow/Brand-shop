@@ -610,15 +610,18 @@ a {
     pointer-events: none;
     display: none;
   }
-  &-link {
+
+  &-button {
     display: flex;
     gap: 8px;
     padding: 10px 13px 7px 12px;
     border: 1px solid $white;
     align-items: center;
     pointer-events: all;
+    background-color: transparent;
   }
-  &-link:hover {
+
+  &-button:hover {
     box-shadow: 0 0 10px 0 $white;
   }
   &-text {
