@@ -41,14 +41,16 @@ document.addEventListener("DOMContentLoaded", async () => {
     );
   });
 
-  function addInfoToLS(card) {
-    localStorage.setItem(
-      JSON.stringify(card.id),
-      JSON.stringify({ img: card.img, title: card.title, price: card.price })
-    );
-  }
+  // function addInfoToLS(card) {
+  //   localStorage.setItem(
+  //     JSON.stringify(card.id),
+  //     JSON.stringify({ img: card.img, title: card.title, price: card.price })
+  //   );
+  // }
 
   const productsCards = document.querySelectorAll(".product__card");
+  const totalPriceEl = document.querySelector(".total-text__amount");
+  let totalPrice = 0;
 
   productsCards.forEach((element) => {
     element.addEventListener("click", (evt) => {
@@ -58,8 +60,10 @@ document.addEventListener("DOMContentLoaded", async () => {
             localStorage.setItem(JSON.stringify(dataEl.id), [
               JSON.stringify(dataEl.title),
               JSON.stringify(dataEl.price),
-              JSON.stringify.apply(dataEl.img),
+              JSON.stringify(dataEl.img),
             ]);
+
+            totalPriceEl.textContent = `${totalPrice} + ${dataEl.price}`;
           }
 
           purchasesBoxEl.style.display = "block";
